@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+h2{
+  color: rgb(248, 151, 5);
+  font-size: 14px;
+}
+
+p{
+  color: rgb(95, 250, 5);
+  font-size: 12px;
+}
+
+
