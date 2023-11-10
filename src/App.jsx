@@ -8,10 +8,16 @@ function App() {
   return (
     <div className="App">
      
-      <div>
-        <Book name="JS for beginners" year="2018" price="1000" />
-        <Book name="React for beginners" year="2019" price="1200" />
-        <Book name="Vue for beginners" year="2021" price="1500" />
+      <div className='book'>
+        <div className='one'>
+          <Book name="JS for beginners" year="2018" price="1000"/>
+        </div>
+        <div className='two'>
+          <Book name="React for beginners" year="2019" price="1200" />
+        </div> 
+        <div className='tree'>
+          <Book name="Vue for beginners" year="2021" price="1500" />
+        </div>      
       </div>
 
     </div>

@@ -47,4 +47,21 @@ p{
   font-size: 12px;
 }
 
+.book{
+  background-color: bisque;
+  width: 150px;
+  border: 2px solid olivedrab;
+  border-radius: 5px;
+}
+
+.one{
+  background-color: rgb(163, 255, 255);
+}
+.two{
+  background-color: rgb(209, 182, 253);
+}
+.tree{
+  background-color: rgb(202, 168, 255);
+}
+
 
