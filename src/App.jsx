@@ -1,15 +1,7 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
-const Book = (props) => {
-  return(
-    <div>
-    <h2>{props.name}</h2>
-    <p>{props.year}</p>
-    <p>{props.price}</p>
-    </div>
-  );
-}
+import Book from './Book';
 
 
 function App() {
