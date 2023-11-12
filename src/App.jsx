@@ -20,9 +20,9 @@ function App() {
           <Book name="Vue for beginners" year="2021" price="1500" />
         </div> 
         <div className = 'color'>
-          <ColorPal color='red'/>
-          <ColorPal color='blue'/>
-          <ColorPal color='green'/>
+          <ColorPal color='red' translete ='Красный'/>
+          <ColorPal color='blue'translete ='Синий'/>
+          <ColorPal color='green'translete ='Зелёный'/>
         </div>     
       </div>
 

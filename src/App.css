@@ -65,13 +65,15 @@ p{
 }
 
 .color_red{
-  color: red;
+  background-color: red;
 }
 .color_blue{
-  color: blue;
+  background-color: blue;
+  color: aqua;
 }
 .color_green{
-  color: green;
+  background-color: green;
+  color: aquamarine;
 }
 
 .color{
