@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Book from './Book';
+import ColorPal from './ColorPal';
 
 
 function App() {
@@ -17,7 +18,12 @@ function App() {
         </div> 
         <div className='tree'>
           <Book name="Vue for beginners" year="2021" price="1500" />
-        </div>      
+        </div> 
+        <div className = 'color'>
+          <ColorPal color='red'/>
+          <ColorPal color='blue'/>
+          <ColorPal color='green'/>
+        </div>     
       </div>
 
     </div>

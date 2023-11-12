@@ -64,4 +64,17 @@ p{
   background-color: rgb(226, 255, 168);
 }
 
+.color_red{
+  color: red;
+}
+.color_blue{
+  color: blue;
+}
+.color_green{
+  color: green;
+}
 
+.color{
+  margin: 5px;
+  border: 2px solid rgb(254, 1, 1);
+}
