@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Book from './Book';
 import ColorPal from './ColorPal';
+// import Clicker from './Clicker';
 
 
 function App() {
@@ -23,9 +23,9 @@ function App() {
           <ColorPal color='red' translete ='Красный'/>
           <ColorPal color='blue'translete ='Синий'/>
           <ColorPal color='green'translete ='Зелёный'/>
-        </div>     
+        </div>   
       </div>
-
+       {/* < Clicker />  */}
     </div>
 
   );
