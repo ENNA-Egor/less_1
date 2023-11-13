@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Book from './Book';
 import ColorPal from './ColorPal';
-// import Clicker from './Clicker';
+import Clicker from './Clicker';
 
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
           <ColorPal color='green'translete ='Зелёный'/>
         </div>   
       </div>
-       {/* < Clicker />  */}
+       < Clicker /> 
     </div>
 
   );
