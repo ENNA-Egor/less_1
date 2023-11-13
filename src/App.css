@@ -64,25 +64,13 @@ p{
   background-color: rgb(226, 255, 168);
 }
 
-.color_red{
-  background-color: red;
+
+
+.color_pall{
   width: 60px;
   font-size: 10px;
   margin: 5px;
-}
-.color_blue{
-  background-color: blue;
-  color: aqua;
-  width: 60px;
-  font-size: 10px;
-  margin: 5px;
-}
-.color_green{
-  background-color: green;
-  color: aquamarine;
-  width: 60px;
-  font-size: 10px;
-  margin: 5px;
+  color: rgb(60, 75, 209)
 }
 
 .color{

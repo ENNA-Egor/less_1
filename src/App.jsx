@@ -23,6 +23,8 @@ function App() {
           <ColorPal color='red' translete ='Красный'/>
           <ColorPal color='blue'translete ='Синий'/>
           <ColorPal color='green'translete ='Зелёный'/>
+          <ColorPal color='aquamarine'translete ='Аквамарин'/>
+          <ColorPal color='rgb(115, 209, 60)'translete ='rgb(115, 209, 60)'/>
         </div>   
       </div>
        < Clicker /> 

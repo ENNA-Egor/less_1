@@ -8,10 +8,7 @@ const ColorPal = (props) => {
   //  };
     return(
       <div>
-         {/* <div>{bacgroundColor = props.color}</div> */}
-
-         {/* <div style ={'bacgroundColor:'+props.color} className= {'color_'+props.color} >Заданный цвет {props.color}</div> */}
-         <div className= {'color_'+props.color} >Заданный цвет {props.translete}</div>
+         <div style ={{backgroundColor:props.color}} className= {'color_pall'} >Заданный цвет {props.translete}</div>
       </div>
     );
   };
