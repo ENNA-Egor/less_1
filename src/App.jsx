@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
-import Book from './Book';
-import ColorPal from './ColorPal';
-import Clicker from './Clicker';
+import Book from './module/Book';
+import ColorPal from './module/ColorPal';
+import Clicker from './module/Clicker';
+import Timer from './module/Timer';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         </div>   
       </div>
        < Clicker /> 
+       < Timer />
     </div>
 
   );
