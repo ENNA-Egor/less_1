@@ -16,7 +16,9 @@ class Clicker extends React.Component{
     render() {
         return(
             <div className="clicker">
-                Hello React
+                <div>
+                Hello React Clicker
+                </div>
                 <button className="btn" onClick={this.handleClickPlus}>+</button>
                 <input className="inp" type="text" value={this.state.count} />
                 <button className="btn" onClick={this.handleClickMinus}>-</button>
