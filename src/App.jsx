@@ -4,6 +4,7 @@ import Book from './module/Book';
 import ColorPal from './module/ColorPal';
 import Clicker from './module/Clicker';
 import Timer from './module/Timer';
+import AppRemove from './module/removePost/AppRemove';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       </div>
        < Clicker /> 
        < Timer />
+       <AppRemove />
     </div>
 
   );
