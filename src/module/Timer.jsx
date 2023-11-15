@@ -6,9 +6,13 @@ export default class Timer extends React.Component {
         isCounting: false,
     };
 
-    componentDidMount() {}
+    componentDidMount() {
 
-    componentDidUpdate() {}
+    }
+
+    componentDidUpdate() {
+        
+    }
 
     componentWillUnmount() {}
 
