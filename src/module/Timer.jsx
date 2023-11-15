@@ -40,6 +40,9 @@ export default class Timer extends React.Component {
         // this.setState({count: this.state.count =0})
         clearInterval(this.counterId)
     }
+    ResetLocST=()=> {
+        localStorage.removeItem('timer');
+    }
 
     render() {
         return (
@@ -52,6 +55,9 @@ export default class Timer extends React.Component {
                     <button onClick={this.handleStop}>Stop</button>
                 )}
                 <button onClick={this.handleReset}>Reset</button>
+                <div>
+                <button onClick={this.ResetLocST}>ResetLS</button>
+                </div>
             </div>
         );
     }
