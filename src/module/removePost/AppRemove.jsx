@@ -10,12 +10,16 @@ class AppRemove extends Component {
         ],
     };
 
+    removePost = (id)=>{
+        this.setState ({ posts:this.state.posts.filter(post => post.id !== id)})
+    }
+
     render() {
         const { posts } = this.state;
 
         return (
             <div className="AppRemove">
-                <Posts posts={posts} />
+                <Posts posts={posts}  removePost={this.removePost}/>
             </div>
         );
     }
