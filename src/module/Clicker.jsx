@@ -20,7 +20,7 @@ class Clicker extends React.Component{
                 Hello React Clicker
                 </div>
                 <button className="btn" onClick={this.handleClickPlus}>+</button>
-                <input className="inp" type="text" value={this.state.count} />
+                <span> {this.state.count}</span>
                 <button className="btn" onClick={this.handleClickMinus}>-</button>
             </div>
         );
