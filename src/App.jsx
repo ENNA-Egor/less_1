@@ -5,6 +5,7 @@ import ColorPal from './module/ColorPal';
 import Clicker from './module/Clicker';
 import Timer from './module/Timer';
 import AppRemove from './module/removePost/AppRemove';
+import AppRemoveCard from './module/removeCard/AppRemoveCard';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
        < Clicker /> 
        < Timer />
        <AppRemove />
+       <AppRemoveCard />
     </div>
 
   );
