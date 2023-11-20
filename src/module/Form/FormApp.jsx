@@ -6,6 +6,13 @@ import React from 'react';
         email: '',
         isAgreeWithTerms: false,
   }
+
+    handleChangeEmail=(event) =>{
+        this.setState({[event.target.name]:event.target.value})    
+    }
+    handleChangeCheckbox=(event) =>{
+        this.setState({[event.target.name]:event.target.checked})    
+    }
   
   render() {
     // TODO: implement component
@@ -18,6 +25,7 @@ import React from 'react';
                     name="email"
                     placeholder="email"
                     value={email}
+                    onChange={this.handleChangeEmail}
                 />
                 <br />
                 <label>
@@ -25,6 +33,7 @@ import React from 'react';
                         type="checkbox"
                         name="isAgreeWithTerms"
                         checked={isAgreeWithTerms}
+                        onChange={this.handleChangeCheckbox}
                     />
                     I agree with terms and conditions
                 </label>
