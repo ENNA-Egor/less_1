@@ -13,6 +13,12 @@ import React from 'react';
     handleChangeCheckbox=(event) =>{
         this.setState({[event.target.name]:event.target.checked})    
     }
+
+    validateEmail=()=>{
+        if(this.state.email.length <3){
+            alert('No')
+        }
+    }
   
   render() {
     // TODO: implement component
@@ -26,6 +32,7 @@ import React from 'react';
                     placeholder="email"
                     value={email}
                     onChange={this.handleChangeEmail}
+                    onBlur={this.validateEmail}
                 />
                 <br />
                 <label>
