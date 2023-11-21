@@ -49,6 +49,7 @@ p{
 
 .book{
   background-color: bisque;
+  margin: 0 auto;
   width: 225px;
   border: 2px solid olivedrab;
   border-radius: 5px;
@@ -86,5 +87,15 @@ p{
 }
 
 .btn{
+  margin: 5px;
+}
+
+.form {
+  margin: 25px 5px;
+  border: #61fb7b solid 3px;
+  border-radius: 5px;
+}
+
+button, input{
   margin: 5px;
 }

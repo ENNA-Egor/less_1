@@ -19,9 +19,9 @@ class Clicker extends React.Component{
                 <div>
                 Hello React Clicker
                 </div>
-                <button className="btn" onClick={this.handleClickPlus}>+</button>
-                <span> {this.state.count}</span>
                 <button className="btn" onClick={this.handleClickMinus}>-</button>
+                <span> {this.state.count}</span>
+                <button className="btn" onClick={this.handleClickPlus}>+</button>
             </div>
         );
     }

@@ -49,7 +49,7 @@ import React from 'react';
     const { email, isAgreeWithTerms } = this.state;
 
         return (
-            <div>
+            <div className='form'>
                 <input
                     type="email"
                     name="email"
