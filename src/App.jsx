@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
      
-      {/* <div className='book'>
+      <div className='book'>
         <div className='one'>
           <Book name="JS for beginners" year="2018" price="1000"/>
         </div>
@@ -40,7 +40,7 @@ function App() {
        <AppRemove />
        <br />
        <AppRemoveCard />
-       <br /> */}
+       <br />
        <FormApp />
     </div>
 
