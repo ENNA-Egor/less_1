@@ -99,3 +99,14 @@ p{
 button, input{
   margin: 5px;
 }
+
+
+.clicker{
+  background-color: antiquewhite;
+  border: solid rgb(253, 205, 143) 2px;
+}
+
+.clicker-hook{
+  background-color: rgb(215, 250, 245);
+  border: solid rgb(123, 252, 233) 2px;
+}

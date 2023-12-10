@@ -3,10 +3,12 @@ import './App.css';
 import Book from './module/Book';
 import ColorPal from './module/ColorPal';
 import Clicker from './module/Clicker';
+import ClickerHoo from './module/ClickerHook';
 import Timer from './module/Timer';
 import AppRemove from './module/removePost/AppRemove';
 import AppRemoveCard from './module/removeCard/AppRemoveCard';
 import FormApp from './module/Form/FormApp';
+import ClickerHook from './module/ClickerHook';
 
 
 function App() {
@@ -34,6 +36,8 @@ function App() {
       </div>
         <br />
        < Clicker />
+       <br /> 
+       < ClickerHook />
        <br /> 
        < Timer />
        <br />
