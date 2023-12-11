@@ -38,7 +38,7 @@
 }
 
 h2{
-  color: rgb(248, 151, 5);
+  color: rgb(5, 171, 248);
   font-size: 14px;
 }
 
@@ -91,22 +91,37 @@ p{
 }
 
 .form {
-  margin: 25px 5px;
-  border: #61fb7b solid 3px;
+  width: 225px;
+  margin: 0 auto;
+  border: rgb(5, 171, 248) solid 3px;
   border-radius: 5px;
 }
 
 button, input{
   margin: 5px;
+  font-size: 12px;
 }
 
 
 .clicker{
   background-color: antiquewhite;
   border: solid rgb(253, 205, 143) 2px;
+  border-radius: 5px;
+  width: 225px;
+  margin: 0 auto;
 }
 
 .clicker-hook{
   background-color: rgb(215, 250, 245);
   border: solid rgb(123, 252, 233) 2px;
+  border-radius: 5px;
+  width: 225px;
+  margin: 0 auto;
+}
+.emailInp{
+  width: 150px;
+}
+
+label{
+  font-size: 12px;
 }

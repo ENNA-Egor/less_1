@@ -57,6 +57,7 @@ import React from 'react';
                     value={email}
                     onChange={this.handleChangeEmail}
                     onBlur={this.validateEmail}
+                    className='emailInp'
                 />
                 <br />
                 <label>
