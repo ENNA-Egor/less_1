@@ -4,6 +4,7 @@ import Book from './module/Book';
 import ColorPal from './module/ColorPal';
 import Clicker from './module/Clicker';
 import Timer from './module/Timer';
+import TimerHook from './module/TimerHook';
 import AppRemove from './module/removePost/AppRemove';
 import AppRemoveCard from './module/removeCard/AppRemoveCard';
 import FormApp from './module/Form/FormApp';
@@ -39,6 +40,8 @@ function App() {
        < ClickerHook />
        <br /> 
        < Timer />
+       <br /> 
+       < TimerHook />
        <br />
        <AppRemove />
        <br />
