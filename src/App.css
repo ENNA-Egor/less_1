@@ -100,6 +100,8 @@ p{
 button, input{
   margin: 5px;
   font-size: 12px;
+  background-color: rgb(233, 255, 248);
+  border: solid rgb(255, 208, 208) 1px;
 }
 
 

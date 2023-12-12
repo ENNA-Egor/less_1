@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Book from './module/Book';
 import ColorPal from './module/ColorPal';
@@ -12,6 +12,9 @@ import ClickerHook from './module/ClickerHook';
 
 
 function App() {
+
+   const [isClickerHook, setClicerHook] = useState(false);
+
   return (
     <div className="App">
      
@@ -37,7 +40,10 @@ function App() {
         <br />
        < Clicker />
        <br /> 
-       < ClickerHook />
+       <div>
+        <button onClick={() =>setClicerHook(!isClickerHook)}>Toggle ckicer</button>
+       {isClickerHook && < ClickerHook />}
+       </div>
        <br /> 
        < Timer />
        <br /> 
