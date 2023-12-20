@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import './App.css';
-import Books from './module/Books';
-import Colors from './module/Colors';
-import Clicker from './module/Clicker';
-import Timer from './module/Timer';
-import TimerHook from './module/TimerHook';
+import Books from './module/Books/Books';
+import Colors from './module/Colors/Colors';
+import Clicker from './module/Clicker/Clicker';
+import Timer from './module/Timer/Timer';
+import TimerHook from './module/Timer/TimerHook';
 import AppRemove from './module/removePost/AppRemove';
 import AppRemoveCard from './module/removeCard/AppRemoveCard';
 import FormApp from './module/Form/FormApp';
-import ClickerHook from './module/ClickerHook';
+import ClickerHook from './module/Clicker/ClickerHook';
 
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
        < Clicker />
        <br /> 
        <div>
-        <button onClick={() =>setClicerHook(!isClickerHook)}>Toggle ckicer</button>
+        <button onClick={() =>setClicerHook(!isClickerHook)}>Toggle ckicerHook</button>
        {isClickerHook && < ClickerHook />}
        </div>
        <br /> 

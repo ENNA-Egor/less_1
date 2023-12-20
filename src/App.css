@@ -42,12 +42,12 @@ h2{
   font-size: 14px;
 }
 h3{
-  color: rgb(0, 73, 107);
+  color: rgb(0, 114, 167);
   font-size: 12px;
 }
 
 p{
-  color: rgb(95, 250, 5);
+  color: rgb(39, 105, 0);
   font-size: 12px;
 }
 
@@ -63,10 +63,13 @@ p{
   background-color: rgb(163, 255, 255);
 }
 .two{
-  background-color: rgb(209, 182, 253);
+  background-color: rgb(252, 253, 182);
 }
 .tree{
-  background-color: rgb(226, 255, 168);
+  background-color: rgb(168, 255, 175);
+}
+.four{
+  background-color: rgb(172, 250, 15);
 }
 
 
