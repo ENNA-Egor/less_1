@@ -10,6 +10,7 @@ import AppRemoveCard from './module/removeCard/AppRemoveCard';
 import FormApp from './module/Form/FormApp';
 import ClickerHook from './module/Clicker/ClickerHook';
 import Cards from './module/Cards/Cards';
+import PostCards from './module/PostCard/PostCards';
 
 
 function App() {
@@ -43,6 +44,8 @@ function App() {
        <FormApp />
        <br />
        <Cards />
+       <br />
+       <PostCards />
     </div>
 
   );
