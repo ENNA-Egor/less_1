@@ -134,3 +134,10 @@ button, input{
 label{
   font-size: 12px;
 }
+
+.newcard{
+  border: solid red 1px;
+  border-radius: 5px;
+  margin: 2px auto;
+  width: 150px;
+}
