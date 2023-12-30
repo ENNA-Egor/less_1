@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import './App.css';
-import Books from './module/Books/Books';
+import Books from './module/books/Books';
 import Colors from './module/Colors/Colors';
-import Clicker from './module/Clicker/Clicker';
+import Clicker from './module/clicker/Clicker';
 import Timer from './module/Timer/Timer';
 import TimerHook from './module/Timer/TimerHook';
 import AppRemove from './module/removePost/AppRemove';
 import AppRemoveCard from './module/removeCard/AppRemoveCard';
-import FormApp from './module/Form/FormApp';
-import ClickerHook from './module/Clicker/ClickerHook';
-import Cards from './module/Cards/Cards';
+import FormApp from './module/form/FormApp';
+import ClickerHook from './module/clicker/ClickerHook';
+import Cards from './module/cards/Cards';
 import PostCards from './module/PostCard/PostCards';
+import {Context} from './module/hooks/Context';
 
 
 function App() {
@@ -21,7 +22,9 @@ function App() {
     <div className="App">
      
       <div className='book'>
-        < Books />
+        <Context>
+          < Books />
+        </Context>
         <br />
         < Colors />
       </div>
