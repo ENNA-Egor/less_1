@@ -147,3 +147,8 @@ label{
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.book {
+  border: solid red 1px;
+  margin: 2px auto;
+}

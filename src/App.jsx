@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import Books from './module/books/Books';
+import Books from './module/Books/Books';
 import Colors from './module/Colors/Colors';
 import Clicker from './module/clicker/Clicker';
 import Timer from './module/Timer/Timer';
