@@ -11,47 +11,45 @@ import FormApp from './module/form/FormApp';
 import ClickerHook from './module/clicker/ClickerHook';
 import Cards from './module/cards/Cards';
 import PostCards from './module/PostCard/PostCards';
-import {Context} from './module/hooks/Context';
-
+import { Context } from './module/hooks/Context';
 
 function App() {
+    const [isClickerHook, setClicerHook] = useState(false);
 
-   const [isClickerHook, setClicerHook] = useState(false);
-
-  return (
-    <div className="App">
-     
-      <div className='book'>
-        <Context>
-          < Books />
-        </Context>
-        <br />
-        < Colors />
-      </div>
-        <br />
-       < Clicker />
-       <br /> 
-       <div>
-        <button onClick={() =>setClicerHook(!isClickerHook)}>Toggle ckicerHook</button>
-       {isClickerHook && < ClickerHook />}
-       </div>
-       <br /> 
-       < Timer />
-       <br /> 
-       < TimerHook />
-       <br />
-       <AppRemove />
-       <br />
-       <AppRemoveCard />
-       <br />
-       <FormApp />
-       <br />
-       <Cards />
-       <br />
-       <PostCards />
-    </div>
-
-  );
+    return (
+        <div className="App">
+            <div className="book">
+                <Context>
+                    <Books />
+                </Context>
+                <br />
+                <Colors />
+            </div>
+            <br />
+            <Clicker />
+            <br />
+            <div>
+                <button onClick={() => setClicerHook(!isClickerHook)}>
+                    Toggle ckicerHook
+                </button>
+                {isClickerHook && <ClickerHook />}
+            </div>
+            <br />
+            <Timer />
+            <br />
+            <TimerHook />
+            <br />
+            <AppRemove />
+            <br />
+            <AppRemoveCard />
+            <br />
+            <FormApp />
+            <br />
+            <Cards />
+            <br />
+            <PostCards />
+        </div>
+    );
 }
 
 export default App;
