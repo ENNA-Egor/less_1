@@ -24,6 +24,7 @@ function App() {
                 </Context>
                 <br />
                 <Colors />
+                
             </div>
             <br />
             <Clicker />
