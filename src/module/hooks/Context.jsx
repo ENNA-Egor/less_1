@@ -9,7 +9,7 @@ export const Context = (props) => {
       { id: 3, name:"Vue for beginners", year:"2021", price:"1500", rezume: "Ещё не понял" },
       { id: 4, name:"React Reduse", year:"2023", price:"800", rezume: "Надо изучить" },
       { id: 5, name:" Bolt CEP", year:"2022", price:"1800", rezume: "Надо изучить TypeScript" },
-      { id: 6, name:"New Bolt CEP", year:"2024", price:"1600", rezume: "Надо изучить Reduks" },
+      { id: 6, name:"New Bolt CEP", year:"2024", price:"1600", rezume: "Надо изучить Redux" },
    ]);
 
    const addBook = (book) =>{
